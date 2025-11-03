@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Js/aplicacao_depositos.js"defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Felipe's Calculators</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./financiamento_fixas.html">Prestações</a>
+            <a href="./valor_futuro_capital.html">Valor de capital</a>
+            <a href="../index.html">Principal</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Calculo da aplicação com depósitos regulares</h1>
+        
+        <label for="meses">Nº de meses:</label><br>
+        <input type="text" id="meses"
+        ><br>
+
+        <label for="taxa">Taxas de juro mensal:</label><br>
+        <input type="text" id="taxa"><br>
+
+        <label for="capital">Valor do depósito regular:</label><br>
+        <input type="text" id="capital"><br>
+
+        <button onclick="principal()">Calcular</button><br><br>
+        <div id="resposta"></div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(60, 60, 207);
+    text-align: center;
+    color: white;
+}
+
+a{
+    padding: 5px 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(0, 116, 6, 0.3);
+    padding: 8px 4px;
+    border-radius: 45px;
+}
+
+button,input{
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+#resposta{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
